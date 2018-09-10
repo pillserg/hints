@@ -1,0 +1,13 @@
+{
+    "Linux": [
+    
+    ],
+    "DB": [
+        {
+            "name": "postgres select data as json",
+            "data": "select data as json: use to_json():\n select to_json(binbase) from binbase where id = 3106249;"
+        }
+    ]
+
+}
+
