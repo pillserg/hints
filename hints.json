@@ -1,6 +1,9 @@
 {
     "Linux": [
-    
+        {
+            "name": "grep without regexp",
+            "data": "-E flag - will search exact match:\ngrep -E 'some[]strange$string'"
+        }    
     ],
     "DB": [
         {
