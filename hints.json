@@ -2,8 +2,12 @@
     "Linux": [
         {
             "name": "grep without regexp",
-            "data": "-E flag - will search exact match:\ngrep -E 'some[]strange$string'"
-        }    
+            "data": "-F --fixed-strings flag - will search exact match:\ngrep -F 'some[]strange$string'\nalso works in ag"
+        },
+        {
+            "name": "ssh copy file, scp",
+            "data": "scp -r -P 2221 pill@somehost.com:/home/pill/dump.sql ~/dump.sql"
+        }
     ],
     "DB": [
         {
