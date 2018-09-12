@@ -7,6 +7,10 @@
         {
             "name": "ssh copy file, scp",
             "data": "scp -r -P 2221 pill@somehost.com:/home/pill/dump.sql ~/dump.sql"
+        },
+        {
+            "name": "ssh tunnel port example",
+            "data": "ssh vagrant@192.168.99.105 -L 5433:127.0.0.1:5432 -N \n-L remote_port:localhost:local_port \n -N      Do not execute a remote command.  This is useful for just forwarding ports"
         }
     ],
     "DB": [
