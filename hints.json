@@ -11,6 +11,10 @@
         {
             "name": "ssh tunnel port example",
             "data": "ssh vagrant@192.168.99.105 -L 5433:127.0.0.1:5432 -N \n-L remote_port:localhost:local_port \n -N      Do not execute a remote command.  This is useful for just forwarding ports"
+        },
+        {
+            "name": "rename multiple files",
+            "data": "zsh way: autoload -U zmv \n zmv 'app-(*)-release.apk' '$1.apk'"
         }
     ],
     "DB": [
