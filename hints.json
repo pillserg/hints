@@ -32,6 +32,12 @@
             "name": "hg resolve all conflicts",
             "data": "Use \n hg resolve -t internal:other --all \nto accept theirs and\nhg resolve -t internal:local --all\nto accept yours
         }
+    ],
+    "MISC": [
+        {
+            "name": "resize vbox vdi with linux",
+            "data": "https://linuxhint.com/increase-virtualbox-disk-size/"
+        }
     ]
 
 }
